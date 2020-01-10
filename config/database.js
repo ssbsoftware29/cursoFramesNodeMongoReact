@@ -5,3 +5,4 @@ const mongoose = require('mongoose');
 
 //Conectar com o mongoDB, recebe a URL
 module.exports = mongoose.connect('mongodb://localhost/db_finance');
+                //'mongodb://usuario:senha@localhost:port/db_finance
